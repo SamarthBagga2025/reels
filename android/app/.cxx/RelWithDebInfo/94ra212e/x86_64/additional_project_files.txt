@@ -1,0 +1,7 @@
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/RNVectorIconsSpec-generated.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/Props.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp.o
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/x86_64/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir/react/renderer/components/RNVectorIconsSpec/States.cpp.o

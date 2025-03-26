@@ -1,0 +1,9 @@
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/CMakeFiles/appmodules.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/react_codegen_RNCSlider.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/rebuild_cache.dir

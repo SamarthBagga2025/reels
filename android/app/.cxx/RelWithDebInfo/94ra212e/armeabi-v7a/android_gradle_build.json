@@ -1,0 +1,61 @@
+{
+  "buildFiles": [
+    "/Users/samarthbagga/myReelsNew/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt",
+    "/Users/samarthbagga/myReelsNew/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/samarthbagga/myReelsNew/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/samarthbagga/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/samarthbagga/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/samarthbagga/myReelsNew/android/app/.cxx/RelWithDebInfo/94ra212e/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "appmodules",
+      "output": "/Users/samarthbagga/myReelsNew/android/app/build/intermediates/cxx/RelWithDebInfo/94ra212e/obj/armeabi-v7a/libappmodules.so",
+      "runtimeFiles": [
+        "/Users/samarthbagga/myReelsNew/android/app/build/intermediates/cxx/RelWithDebInfo/94ra212e/obj/armeabi-v7a/libreact_codegen_RNCSlider.so",
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/8b60b4f75564ac53567672df7a1c9a73/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/f5f2c5a1aac81be5c2065c1af7ab67cb/transformed/react-android-0.76.5-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/f5f2c5a1aac81be5c2065c1af7ab67cb/transformed/react-android-0.76.5-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+      ]
+    },
+    "react_codegen_RNCSlider::@4898bc4726ecf1751b6a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_RNCSlider",
+      "output": "/Users/samarthbagga/myReelsNew/android/app/build/intermediates/cxx/RelWithDebInfo/94ra212e/obj/armeabi-v7a/libreact_codegen_RNCSlider.so",
+      "runtimeFiles": [
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/8b60b4f75564ac53567672df7a1c9a73/transformed/fbjni-0.6.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/f5f2c5a1aac81be5c2065c1af7ab67cb/transformed/react-android-0.76.5-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/Users/samarthbagga/.gradle/caches/8.10.2/transforms/f5f2c5a1aac81be5c2065c1af7ab67cb/transformed/react-android-0.76.5-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+      ]
+    },
+    "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_RNVectorIconsSpec"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/samarthbagga/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/samarthbagga/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
