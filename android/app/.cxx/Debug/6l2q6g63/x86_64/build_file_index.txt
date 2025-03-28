@@ -1,3 +1,6 @@
 /Users/samarthbagga/myReelsNew/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt
+/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/CMakeLists.txt
+/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt
+/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt
 /Users/samarthbagga/myReelsNew/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt
 /Users/samarthbagga/myReelsNew/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt

@@ -57,6 +57,81 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/rnflashlist-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/ComponentDescriptors.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/EventEmitters.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/Props.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/ShadowNodes.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/States.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/react/renderer/components/rnflashlist/rnflashlistJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/rngesturehandler_codegen-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/ComponentDescriptors.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/EventEmitters.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/Props.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/ShadowNodes.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/States.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/react/renderer/components/rngesturehandler_codegen/rngesturehandler_codegenJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/rnreanimated-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/*.cpp")
+set(OLD_GLOB
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/ComponentDescriptors.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/EventEmitters.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/Props.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/ShadowNodes.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/States.cpp"
+  "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/rnreanimatedJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /Users/samarthbagga/myReelsNew/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/samarthbagga/myReelsNew/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB

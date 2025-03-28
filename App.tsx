@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Reels from './components/Reel/components/Reels';
 import videos from './videos';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -64,7 +65,11 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return <Reels videos={videos} />;
+  return (
+    <GestureHandlerRootView>
+      <Reels videos={videos} />
+    </GestureHandlerRootView>
+  );
 }
 
 const styles = StyleSheet.create({

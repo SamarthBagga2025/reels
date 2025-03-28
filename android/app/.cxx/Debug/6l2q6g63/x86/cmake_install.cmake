@@ -45,6 +45,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/x86/RNCSlider_autolinked_build/cmake_install.cmake")
+  include("/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/x86/rnflashlist_autolinked_build/cmake_install.cmake")
+  include("/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/x86/rngesturehandler_codegen_autolinked_build/cmake_install.cmake")
+  include("/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/x86/rnreanimated_autolinked_build/cmake_install.cmake")
   include("/Users/samarthbagga/myReelsNew/android/app/.cxx/Debug/6l2q6g63/x86/RNVectorIconsSpec_autolinked_build/cmake_install.cmake")
 
 endif()

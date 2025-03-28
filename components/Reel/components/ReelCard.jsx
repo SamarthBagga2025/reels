@@ -26,9 +26,11 @@ function ReelCard({
   uri,
   _id,
   ViewableItem,
+  isPlaying,
   liked = false,
   disliked = false,
   index,
+  currentIndex,
 
   // Container Props
   backgroundColor = 'black',
@@ -133,6 +135,15 @@ function ReelCard({
       }
     };
   }, []);
+
+  useEffect(() => {
+    setPaused(!isPlaying);
+  }, [isPlaying]);
+
+  useEffect(() => {
+    // Play the video if its index matches the current index
+    setPaused(currentIndex !== index);
+  }, [currentIndex, index]);
 
   // Play/Pause based on viewability
   useEffect(() => {

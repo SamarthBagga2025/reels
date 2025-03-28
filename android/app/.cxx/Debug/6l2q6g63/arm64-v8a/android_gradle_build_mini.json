@@ -1,6 +1,9 @@
 {
   "buildFiles": [
     "/Users/samarthbagga/myReelsNew/node_modules/@react-native-community/slider/android/src/main/jni/CMakeLists.txt",
+    "/Users/samarthbagga/myReelsNew/node_modules/@shopify/flash-list/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/samarthbagga/myReelsNew/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/samarthbagga/myReelsNew/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/samarthbagga/myReelsNew/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/samarthbagga/myReelsNew/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
   ],
@@ -31,6 +34,21 @@
     },
     "react_codegen_RNVectorIconsSpec::@479809fae146501fd34d": {
       "artifactName": "react_codegen_RNVectorIconsSpec",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnreanimated::@8afabad14bfffa3f8b9a": {
+      "artifactName": "react_codegen_rnreanimated",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnflashlist::@c1d6cf6af84cbabf418f": {
+      "artifactName": "react_codegen_rnflashlist",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
+      "artifactName": "react_codegen_rngesturehandler_codegen",
       "abi": "arm64-v8a",
       "runtimeFiles": []
     },
