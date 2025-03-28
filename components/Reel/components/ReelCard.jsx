@@ -32,10 +32,8 @@ function ReelCard({
   index,
   currentIndex,
 
-  // Container Props
   backgroundColor = 'black',
 
-  // Header Props
   headerTitle = 'Reels',
   headerIconName,
   headerIconColor,
@@ -44,7 +42,6 @@ function ReelCard({
   headerComponent,
   onHeaderIconPress = () => {},
 
-  // Options Props
   optionsComponent,
   pauseOnOptionsShow = true,
   onSharePress = () => {},
@@ -52,26 +49,21 @@ function ReelCard({
   onLikePress = () => {},
   onDislikePress = () => {},
 
-  // Player Props
   onFinishPlaying = () => {},
 
-  // Slider Props
   minimumTrackTintColor = 'white',
   maximumTrackTintColor = 'grey',
   thumbTintColor = 'white',
 
-  // Time Props
   timeElapsedColor = 'white',
   totalTimeColor = 'white',
 }) {
-  // ref for Video Player
   const videoRef = useRef(null);
   const controlsTimeoutRef = useRef(null);
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const progressAnim = useRef(new Animated.Value(0)).current;
   const isSeeking = useRef(false);
 
-  // States
   const [videoDimensions, setVideoDimensions] = useState({
     width: ScreenWidth,
     height: ScreenWidth,
@@ -95,12 +87,10 @@ function ReelCard({
         setShowControls(false);
       });
 
-      // Clear timeout if exists
       if (controlsTimeoutRef.current) {
         clearTimeout(controlsTimeoutRef.current);
       }
     } else {
-      // Show controls
       Animated.timing(fadeAnim, {
         toValue: 1,
         duration: 300,
@@ -109,12 +99,10 @@ function ReelCard({
         setShowControls(true);
       });
 
-      // Clear any existing timeout
       if (controlsTimeoutRef.current) {
         clearTimeout(controlsTimeoutRef.current);
       }
 
-      // Set a timeout to hide controls
       controlsTimeoutRef.current = setTimeout(() => {
         Animated.timing(fadeAnim, {
           toValue: 0,
@@ -127,7 +115,6 @@ function ReelCard({
     }
   }, [fadeAnim, showControls]);
 
-  // Cleanup timeout on unmount
   useEffect(() => {
     return () => {
       if (controlsTimeoutRef.current) {
@@ -141,14 +128,12 @@ function ReelCard({
   }, [isPlaying]);
 
   useEffect(() => {
-    // Play the video if its index matches the current index
     setPaused(currentIndex !== index);
   }, [currentIndex, index]);
 
-  // Play/Pause based on viewability
   useEffect(() => {
     if (ViewableItem === _id) {
-      setPaused(false); // Ensure it plays if it's the current item
+      setPaused(false);
     } else {
       setPaused(true);
     }
@@ -162,7 +147,6 @@ function ReelCard({
     setProgress(location * 100);
   };
 
-  // Seek bar pan responder
   const seekBarPanResponder = PanResponder.create({
     onStartShouldSetPanResponder: () => true,
     onMoveShouldSetPanResponder: () => true,
@@ -194,7 +178,6 @@ function ReelCard({
     },
   });
 
-  // Render play/pause button
   const renderPlayPauseButton = () => {
     if (!showControls) return null;
 
@@ -235,7 +218,6 @@ function ReelCard({
     );
   };
 
-  // Render seek bar
   const renderSeekBar = () => {
     if (!showControls) return null;
 
@@ -326,9 +308,7 @@ function ReelCard({
               progressAnim.setValue(data.currentTime / duration);
             }
           }}
-          onEnd={() => {
-            // Handle video end
-          }}
+          onEnd={() => {}}
         />
         <Animated.View
           style={[

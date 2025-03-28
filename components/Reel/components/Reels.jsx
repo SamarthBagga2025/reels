@@ -58,11 +58,10 @@ function Reels({
   }, []);
 
   const viewabilityConfig = {
-    itemVisiblePercentThreshold: 50, // Ensure at least 50% visibility
+    itemVisiblePercentThreshold: 50,
     waitForInteraction: false,
   };
 
-  // Memoize the viewability config and changed handler to prevent unnecessary re-renders
   const viewabilityConfigCallbackPairs = useRef([
     {viewabilityConfig: viewConfigRef.current, onViewableItemsChanged},
   ]);
